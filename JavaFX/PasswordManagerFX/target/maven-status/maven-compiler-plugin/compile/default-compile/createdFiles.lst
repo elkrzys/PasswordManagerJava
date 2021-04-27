@@ -1,0 +1,16 @@
+pl\lipiec\Models\User.class
+pl\lipiec\Controllers\BaseController.class
+pl\lipiec\ViewExtensions\MessageBox.class
+pl\lipiec\Exceptions\RegistrationFailedEx.class
+pl\lipiec\Models\Accounts.class
+pl\lipiec\Controllers\MainPanelController.class
+pl\lipiec\Exceptions\InvalidPasswordConfirmationEx.class
+pl\lipiec\Models\LoginModel.class
+pl\lipiec\passwordmanagerfx\App.class
+pl\lipiec\Models\CompareInterface.class
+pl\lipiec\Models\RegistrationModel.class
+pl\lipiec\Controllers\RegistrationController.class
+module-info.class
+pl\lipiec\Models\Account.class
+pl\lipiec\Controllers\LoginController.class
+pl\lipiec\Models\Users.class

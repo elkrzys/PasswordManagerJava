@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.lipiec.Controllers.LoginController">
+   <children>
+      <VBox alignment="CENTER" layoutX="55.0" layoutY="100.0" prefHeight="200.0" prefWidth="490.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <TextField fx:id="loginField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="31.0" prefWidth="160.0" promptText="Login">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </TextField>
+            <PasswordField fx:id="passwordField" maxHeight="-Infinity" maxWidth="-Infinity" prefWidth="160.0" promptText="Hasło">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </PasswordField>
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#loginButtonAction" text="Zaloguj">
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="registerButton" mnemonicParsing="false" onAction="#callRegisterPanel" text="Zarejestruj">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

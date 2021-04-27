@@ -1,0 +1,4 @@
+--patch-module
+pl.lipiec.passwordmanagerfx=_
+--add-reads
+pl.lipiec.passwordmanagerfx=ALL-UNNAMED

@@ -1,0 +1,23 @@
+/* 
+    Style sheet of TableView.
+    Contains basic table styling.
+    Created on : 29 lis 2020, 01:31:34
+    Author     : Krzysztof Lipiec
+*/
+
+.table-view{
+    -fx-background-color: linear-gradient(to bottom, #b5daff88, #ffffff44);
+    -fx-background-radius: 5px;
+}
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+}
+ 
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+.table-row-cell:selected{
+    -fx-background-color: #4aa4ff;
+    -fx-background-radius: 3px;
+}
