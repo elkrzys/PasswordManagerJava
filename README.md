@@ -21,3 +21,5 @@ Data of each user is stored in a separate .json file.
 To read the **documentation** you can download *apidocs* directory of each version and open *index.html* file.
 - Swing: https://github.com/elkrzys/password-manager-java/tree/main/JavaSwing/PasswordManager/target/site/apidocs
 - JavaFX: https://github.com/elkrzys/password-manager-java/tree/main/JavaFX/PasswordManagerFX/target/site/apidocs
+
+### Both version have unit tests for application models written with JUnit.
