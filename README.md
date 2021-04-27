@@ -3,7 +3,7 @@
 
 Application built to learn Java and idea of MVC.
 First version is implemented with *Swing*.
-*JavaFX* is a better implementation of MVC pattern.
+*JavaFX* is second, better implementation of MVC pattern.
 
 Application allow users to sign up and store list of different accounts with details.
 
